@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+#include <unistd.h> 
+
 /**
  * main - function entry point
  * Return: returns (1) success.
