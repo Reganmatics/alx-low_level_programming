@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include <unistd.h> 
+#include <unistd.h>
 
 /**
  * main - function entry point
