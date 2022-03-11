@@ -5,7 +5,7 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - entry point
+ * main - function entry point
  * Return: always 0 (success)
  */
 int main(void)
@@ -29,4 +29,3 @@ int main(void)
 	}
 	return (0);
 }
-
