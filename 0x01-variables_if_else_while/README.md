@@ -1,0 +1,14 @@
+projects under this section.
+task 0. Positive anything is better than negative nothing.
+task 1. The last digit.
+task 2. I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game.
+task 3. alphABET.
+task 4. When I was having that alphabet soup, I never thought that it would pay off.
+task 5. Numbers.
+task 6. Numberz.
+task 7. Smile in the mirror.
+task 8. Hexadecimal.
+task 9. Patience, persistence and perspiration make an unbeatable combination for success.
+task 10. Inventing is a combination of brains and materials. The more brains you use, the less material you need.
+task 11. The success combination in business is: Do what you do better... and: do more of what you do...
+task 12. Software is eating the World.
