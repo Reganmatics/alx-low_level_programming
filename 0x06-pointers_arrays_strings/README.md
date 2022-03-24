@@ -1,6 +1,6 @@
 # _tasks for project_ ***0x06-pointers_arrays_strings***
 
-## _MAndatory tasks._
+## _Mandatory tasks._
 task 0. _strcat_
 task 1. _strncat_
 task 2. _strncpy_
