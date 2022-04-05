@@ -1,6 +1,6 @@
 # **project description for 0x0B-malloc_free**
 
-## **Advanced tasks**
+## **Mandatory tasks**
 
 task 0. **Float like a butterfly, sting like a bee**
 Write a function thatcreates an array of chars, and initializes it with a specific char.
@@ -33,3 +33,22 @@ task 4. **It's not bragging if you can back it up.**
 Write a function that frees a2- dimensional grid previously created by your __alloc_grid__ function
 > **Prototype:** __coid free_grid(int **grid, int height);__
 > Note that we will compile with ypur __allo_grid.c__ file. Make sure it compiles
+
+### **Advanced tasks**
+
+task 5. **It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe**
+Write a function that concatenates all the arguments of your program.
+> **Prototype:** __char *argtostr(int ac, char **av);__
+> Returns _NULL_ if _ac == 0_ or _av == NULL_
+> Returns a pointer to a new string, or NULL if it fails
+> Each argument should be follwed by a __\n__ in the new string
+
+task 6. **I will show you how great I am**
+Write a function that splits a string into words.
+> **Prototype:** __char **strtow(char *str);__
+> The function returns a pointer to an array of strings (words)
+> Each element of this array should contain a single word, null-terminated.
+> The last element of the returned array should be _NULL_
+> Words are separated by spaces
+> Returns _NULL_ if _str == NULL_ or _str == ""_
+> If your function fails, it should return _NULL_
