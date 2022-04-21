@@ -10,7 +10,7 @@ Wrtite a function that prints all the elements of a __list_t__ list.
 - If _str_ is _NULL_, print _[0] (nil)_
 - You are allowed to use _printf_
 
-- file: [0-print_list.c](https://github.com/Reganmatics/alx-low_level_programming/blob/master/0x12-singly_linked_lists/0-print_list.c)
+- file: [0-print_list.c]()
 
 task 
 
