@@ -6,5 +6,6 @@ Write a function that prints out all the elements of a __listint_t.__
 - Return: the number of nodes
 - Format: see examples
 - You are allowed to use __printf__
-> file -> [0-print_listint.c]
+> file -> [0-print_listint.c]()
+
 task 1. 
