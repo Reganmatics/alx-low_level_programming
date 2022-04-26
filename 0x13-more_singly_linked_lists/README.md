@@ -20,25 +20,27 @@ Write a function that adds a new node at the beginning of a __listint_t__ list.
 - file -> [2-add_nodint.c](https://github.com/Reganmatics/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/2-add_nodeint.c)
 
 task 3. Add node at the end
-- file -> [3-add_nodeint_end.c]()
+- file -> [3-add_nodeint_end.c](https://github.com/Reganmatics/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/3-add_nodeint_end.c)
 
 task 4. Free list
-- file -> [4-free_listint.c]()
+- file -> [4-free_listint.c](https://github.com/Reganmatics/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/4-free_listint.c)
 
 task 5. Free
-- file -> [5-free_listint2.c]()
+- file -> [5-free_listint2.c](https://github.com/Reganmatics/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/5-free_listint2.c)
 
 task 6. Pop
-- file -> [6-pop_listint.c]()
+- file -> [6-pop_listint.c](https://github.com/Reganmatics/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/6-pop_listint.c)
 
 task 7. Get node at index
-- file -> [7-get_nodeint.c]()
+- file -> [7-get_nodeint.c](https://github.com/Reganmatics/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/7-get_nodeint.c)
 
 task 8. Sum list
-- file -> [8-sum_listint.c]()
+- file -> [8-sum_listint.c](https://github.com/Reganmatics/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/8-sum_listint.c)
 
 task 9. Insert
-- file -> [9-insert_nodeint.c]()
+- file -> [9-insert_nodeint.c](https://github.com/Reganmatics/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/9-insert_nodeint.c)
 
 task 10. Delete at index
-- file -> [10-delete_nodeint.c]()
+- file -> [10-delete_nodeint.c](https://github.com/Reganmatics/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/10-delete_node.c)
+
+Hopefully by the end of this project you will be able to write standalone singly-linked lists
