@@ -43,4 +43,4 @@ task 9. Insert
 task 10. Delete at index
 - file -> [10-delete_nodeint.c](https://github.com/Reganmatics/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/10-delete_node.c)
 
-Hopefully by the end of this project you will be able to write standalone singly-linked lists
+Hopefully, by the end of this project you will be able to write standalone singly-linked lists
