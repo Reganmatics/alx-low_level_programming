@@ -1,16 +1,24 @@
 #include "lists.h"
 
 /**
- * free_listint2 - deletes the list @head from the heap
- * @head: the list to be deleted
- * Return: void
+ * free_listint2 - frees a linked list
+ * @head: head of a list.
+ *
+ * Return: no return.
  */
 void free_listint2(listint_t **head)
 {
-	if (!*head || !head)
-		return;
-	if ((*head)->next)
-		free_listint2(&((*head)->next));
-	free(*head);
-	(*head) = NULL;
+	listint_t *temp;
+	listint_t *curr;
+
+	if (head != NULL)
+	{
+		curr = *head;
+		while ((temp = curr) != NULL)
+		{
+			curr = curr->next;
+			free(temp);
+		}
+		*head = NULL;
+	}
 }
