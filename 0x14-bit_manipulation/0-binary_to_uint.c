@@ -1,48 +1,26 @@
 #include "main.h"
 
 /**
- * binary_to_uint - converts binary number to an unsigned int
- * @b: the string containing 0's and 1's to be converted to integer
+ * binary_to_uint - Converts a binary number to an unsigned int.
+ * @b: A pointer to a string of 0 and 1 chars.
  *
- * Return: integer converted from binary
- *	   0 if @b contains a character other than 0 and 1
- *	   @b is NULL
+ * Return: If b is NULL or contains chars not 0 or 1 - 0.
+ *         Otherwise - the converted number.
  */
-
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int i, uint = 0, digits = 0;
+	unsigned int num = 0;
+	int len = 0;
 
-	if (!b)
+	if (b[len] == '\0')
 		return (0);
-	for (i = 0; b[i] != 0; i++)
-		digits++;
-	digits--;
 
-	for (i = 0; b[i] != 0; i++)
+	while ((b[len] == '0') || (b[len] == '1'))
 	{
-		if (b[i] != 48 && b[i] != 49)
-			return (0);
-		uint += (b[i] - 48) *  power(2, digits - i);
+		num <<= 1;
+		num += b[len] - '0';
+		len++;
 	}
 
-	return (uint);
-}
-
-/**
- * power - raise num by the exponent power
- * @num: number to be raised
- * @power: the exponent
- *
- * Return: the exponentiated number
- */
-int power(int num, int power)
-{
-	int result = 1;
-
-	for (; power > 0; power--)
-	{
-		result = result * num;
-	}
-	return (result);
+	return (num);
 }
